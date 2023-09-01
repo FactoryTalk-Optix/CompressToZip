@@ -1,0 +1,1742 @@
+Name: Pannelli
+Id: g=1e2d8a9ea1a787f150cc5d4a143b4a80
+Type: FolderType
+Children:
+- Name: Zip
+  Id: g=dbf77ac0152554f86a8961f39ba95a26
+  Supertype: Page_Template
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=842db4d726460787e62365eb18dcbd2b
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 900.0
+  - Name: HorizontalAlignment
+    Id: g=a4c3aecb125252279ce1fabeb5bb7649
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Id: g=75f7e78844f70b0ee9e91d4535b92853
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: Height
+    Id: g=5c02fed46c062696523f61409887c319
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1000.0
+  - Name: FilesystemBrowser1
+    Id: g=bbb66b2a32a5b2f997fa2e1ae76a26fd
+    Type: ColumnLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: FilesystemBrowserLogic
+      Id: g=814de95aa725766d57673b619702f8ed
+      Type: NetLogic
+      Children:
+      - Class: Method
+        Name: Browse
+        Id: g=c2c6d00bf87e0c6fbc51ab6f2dd829ff
+        Children:
+        - Name: ns=0;InputArguments
+          Id: g=9a2654f2789f149bdcb0759ee7ffb080
+          Type: BaseVariableType
+          DataType: Argument
+          ReferenceType: HasProperty
+          ValueRank: OneDimension
+          ArrayDimensions: [0]
+          Value: [{"TypeId":{"Id":296},"Body":{"Name":"path","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+      - Class: Method
+        Name: Browse
+        Id: g=8bd3da9b5a4bd309853b10f987455f8e
+        Children:
+        - Name: ns=0;InputArguments
+          Id: g=c4a8d31981c8fbbc77a533c669f93056
+          Type: BaseVariableType
+          DataType: Argument
+          ReferenceType: HasProperty
+          ValueRank: OneDimension
+          ArrayDimensions: [0]
+          Value: [{"TypeId":{"Id":296},"Body":{"Name":"path","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+      - Class: Method
+        Name: Browse
+        Id: g=8a5f96738f27ff6e37a840b8459133f5
+        Children:
+        - Name: ns=0;InputArguments
+          Id: g=a114527a7e7ff8ac496f60000d39e9e0
+          Type: BaseVariableType
+          DataType: Argument
+          ReferenceType: HasProperty
+          ValueRank: OneDimension
+          ArrayDimensions: [0]
+          Value: [{"TypeId":{"Id":296},"Body":{"Name":"path","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+      - Class: Method
+        Name: Browse
+        Id: g=7c84f20e70d7a13e84f0e51eb6b6b061
+        Children:
+        - Name: ns=0;InputArguments
+          Id: g=a81780d4dd2ac6a9b33247365a5e3e74
+          Type: BaseVariableType
+          DataType: Argument
+          ReferenceType: HasProperty
+          ValueRank: OneDimension
+          ArrayDimensions: [0]
+          Value: [{"TypeId":{"Id":296},"Body":{"Name":"path","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+      - Class: Method
+        Name: Browse
+        Id: g=53d9c38085ffb221d7e0996d6706832f
+        Children:
+        - Name: ns=0;InputArguments
+          Id: g=369abb6612920ef7c65a1e3878ac0175
+          Type: BaseVariableType
+          DataType: Argument
+          ReferenceType: HasProperty
+          ValueRank: OneDimension
+          ArrayDimensions: [0]
+          Value: [{"TypeId":{"Id":296},"Body":{"Name":"path","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+      - Class: Method
+        Name: Browse
+        Id: g=0eb2a6c26915453500e9d7c9d32f0632
+        Children:
+        - Name: ns=0;InputArguments
+          Id: g=fd2d280f3fc0d7805d3c2adce746d537
+          Type: BaseVariableType
+          DataType: Argument
+          ReferenceType: HasProperty
+          ValueRank: OneDimension
+          ArrayDimensions: [0]
+          Value: [{"TypeId":{"Id":296},"Body":{"Name":"path","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+      - Class: Method
+        Name: Browse
+        Id: g=22468b905aa504a641e8ed9a1b681508
+        Children:
+        - Name: ns=0;InputArguments
+          Id: g=519dba4c463a4a841c05727620fbb2f3
+          Type: BaseVariableType
+          DataType: Argument
+          ReferenceType: HasProperty
+          ValueRank: OneDimension
+          ArrayDimensions: [0]
+          Value: [{"TypeId":{"Id":296},"Body":{"Name":"path","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+      - Class: Method
+        Name: Browse
+        Id: g=b0ade3d4835a4f8132855c129316f68c
+        Children:
+        - Name: ns=0;InputArguments
+          Id: g=7edaffa116b225f1df9aee8d98009d36
+          Type: BaseVariableType
+          DataType: Argument
+          ReferenceType: HasProperty
+          ValueRank: OneDimension
+          ArrayDimensions: [0]
+          Value: [{"TypeId":{"Id":296},"Body":{"Name":"path","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+      - Name: FilesList
+        Id: g=ee64d41acb91814c41d88e2154bcbec1
+        Type: BaseObjectType
+      - Name: Path
+        Id: g=2f1a6278a3234df8cd4baa6e17e5d6a5
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: ""
+        Children:
+        - Name: DynamicLink
+          Id: g=08f86435a11e4a028ec46a3daa6c2a19
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FolderPath"
+          Children:
+          - Name: Mode
+            Id: g=e70e0b6bab6b9f6ea7233b2d794d6eb9
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: FolderBar
+      Id: g=3c96118537cc22a59d01c7304ec7a16f
+      Type: RowLayout
+      Children:
+      - Name: Width
+        Id: g=818933692041f393354c9a79f3cdaa61
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Locations
+        Id: g=fbf362eb2756d2077fd788dab725dfae
+        Type: ComboBox
+        Children:
+        - Class: Reference
+          Target: ns=7;i=480
+          Direction: Forward
+        - Name: Text
+          Id: g=bce456eb02e2b05d0e5809b5dde82827
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Model
+          Id: g=62f09fd43996c66589441970088bd598
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+          Children:
+          - Name: ItemKind
+            Id: g=eefa5ee47950c8f6ef5dbae6bd59db33
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: Kind
+            Id: g=9b187563cc80addb6eff5b97f3c98979
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: CollegamentoDinamico
+            Id: g=c08df37874bfb3d4db11cf0cff04c58b
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../Locations@NodeId"
+        - Name: SelectedValue
+          Id: g=9d12ddadaf9a72d1d56f14591907ec4e
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+        - Name: SelectedItem
+          Id: g=e01afe9ab4490e1404d6850d9215fbdd
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+          Children:
+          - Name: Kind
+            Id: g=868be1f46079b543e331576af045e90d
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: Item
+          Id: g=662d9a98ebe005f797b07944ce68a64c
+          Type: Alias
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+          Children:
+          - Name: Kind
+            Id: g=cae707433131fe9bc2cac22834eb6b58
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: HorizontalAlignment
+          Id: g=e62f3de608c3c65c762741071f074c1e
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 0
+        - Name: Width
+          Id: g=a057e6ee7c76c2fd69679238d5b2fe13
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 160.0
+        - Name: DisplayValuePath
+          Id: g=f74750fdd8923cfc763cb551f44dc640
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Children:
+          - Name: CollegamentoDinamico
+            Id: g=9abb3575ec41e9d6c663dc99687070e5
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Item}@DisplayName"
+        - Name: SelectedValuePath
+          Id: g=aec62f8815f5e7ac69b351c83829bc4f
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          Children:
+          - Name: CollegamentoDinamico
+            Id: g=47ab83b058ceb35145d0223b24dbf94f
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Item}@Value"
+        - Name: UISelectedItem
+          Id: g=d0155803ad223d2e211b63ce340a6b65
+          Type: BaseDataVariableType
+          DataType: NodeId
+          AccessLevel: Read
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: UISelectedValue
+          Id: g=18fba4893dd3145c2645ef8959b3b942
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          AccessLevel: Read
+      - Name: RelativePath
+        Id: g=dcfd99d2ddf66b5072d444fe7b0bb0c1
+        Type: TextBox
+        Children:
+        - Name: Text
+          Id: g=0b161dbd5bf45bab8fdf0ff0f63997c9
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Width
+          Id: g=5762cc2b9eb52789030b63ee0cb65138
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 110.0
+        - Name: HorizontalAlignment
+          Id: g=1ebb24fd28c48ef27cbf9d3891e02e61
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: LeftMargin
+          Id: g=b0e3e8b36d5b1dfea1666b332b18e9c0
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 5.0
+      - Name: HorizontalAlignment
+        Id: g=3571e8d9ae66c9afa818e55bb7d15e96
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: FolderBarLogic
+        Id: g=abbd50c3b01ad1e6ae0c2feb6eef7a5f
+        Type: NetLogic
+        Children:
+        - Name: Path
+          Id: g=a9495145994384a8f6cbf33f0391dadd
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "0"
+          Children:
+          - Name: DynamicLink
+            Id: g=b08733ce0d37d31b22f83425b2b3eb50
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../FolderPath"
+            Children:
+            - Name: Mode
+              Id: g=cd4ac87e1a35b16523e4c838b0e53f3b
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+    - Name: DataGrid
+      Id: g=142cf74ce0c6cac2e3674b577ad0f851
+      Type: DataGrid
+      Children:
+      - Class: Reference
+        Target: ns=7;i=504
+        Direction: Forward
+      - Name: Model
+        Id: g=58bf9af3fae9199fc95d4ef965615613
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Children:
+        - Name: ItemKind
+          Id: g=3583a507f20b21627dde608e1c3f258a
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"e6468705b0e338094ea431f36d411d7f","Namespace":14}
+        - Name: Kind
+          Id: g=1e9a2f5093de6d6d7830ce52d3421721
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: DynamicLink
+          Id: g=62eea083708e0c88a1e12f6248c4bd3f
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FilesystemBrowserLogic/FilesList@NodeId"
+      - Name: Query
+        Id: g=1195f18731b5450b10519048e2cf493a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: ""
+      - Name: Columns
+        Id: g=ceae9c61d3ba392a0d08fc04dbf70572
+        Type: BaseObjectType
+        Children:
+        - Name: DataGridColumn1
+          Id: g=102992796d1464c19579d3bc3c38b769
+          Type: DataGridColumn
+          Children:
+          - Name: Title
+            Id: g=aa8931d4720ac8aa3ae4ae9662819135
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Width
+            Id: g=d03ba6c8411d54859b6e7309c4cb924f
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: 40.0
+          - Name: HeaderAlignment
+            Id: g=e80d823dd689dbb9e17dc7f42465c7bd
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+            Value: 0
+          - Name: ContentAlignment
+            Id: g=f948e1de21c55429a3b7a02a8284ec23
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: OrderBy
+            Id: g=d0dfad721546bf29f150c648cce1fb69
+            Type: BaseDataVariableType
+            DataType: NodePath
+            Value: ""
+          - Name: DataItemTemplate
+            Id: g=829fe891858d06153b50b5f12de05ade
+            Type: DataGridImageItemTemplate
+            Children:
+            - Name: Path
+              Id: g=9036c372778377a3f9c1338d4839d33d
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: ""
+              Children:
+              - Name: KeyValueConverter1
+                Id: g=bb4eeeafc001be331a5cc8698cf3c225
+                Type: ValueMapConverter
+                Children:
+                - Name: Source
+                  Id: g=16ae6a334e7ffb393b35cca6f74cf10b
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=81c7319c4f7a568b8c70886b3df47b82
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Item}/IsDirectory"
+                    Children:
+                    - Name: Mode
+                      Id: g=3a057a665ec2368f0ff18bea010cb3be
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
+                - Name: Pairs
+                  Id: g=acd9d5d0e636e0d5db05174eaac4a458
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Pair
+                    Id: g=b36070db72bb52563df2d3db5e127405
+                    Type: ValueMapPair
+                    Children:
+                    - Name: Key
+                      Id: g=5446daab8654a44226499338703c35c9
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      Value: false
+                    - Name: Value
+                      Id: g=87cb5b1a90cb678bf59efe046b38e5e8
+                      Type: BaseDataVariableType
+                      DataType: ResourceUri
+                      Value: "ns=14;%PROJECTDIR%/FilesystemBrowser/FileDark.png"
+                  - Name: Pair1
+                    Id: g=6a2752248ae89f056340de9ae2b82054
+                    Type: ValueMapPair
+                    Children:
+                    - Name: Key
+                      Id: g=4362332f2bd0e4cac71385164c7705df
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      Value: true
+                    - Name: Value
+                      Id: g=b54a5f79998615a37dbbe8bc417d279a
+                      Type: BaseDataVariableType
+                      DataType: ResourceUri
+                      Value: "ns=14;%PROJECTDIR%/FilesystemBrowser/Folder_normal.svg"
+            - Name: Width
+              Id: g=2a8d0f5dd2e9872cf7166f373a4bbe9e
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: 16.0
+            - Name: Height
+              Id: g=624370f44e5dd7588781f848c4ac03f8
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: 16.0
+        - Name: DataGridColumn2
+          Id: g=0d74f5c480a2827fe186762776892201
+          Type: DataGridColumn
+          Children:
+          - Name: Title
+            Id: g=af64b6b13ce3c213b6f744492f9cb3f3
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":14,"TextId":"Filename"}
+          - Name: Width
+            Id: g=f452e096091bf9f5a7b23c0415c86f66
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+          - Name: HeaderAlignment
+            Id: g=5e369bb9b4978bb371f722dc57947eeb
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+            Value: 0
+          - Name: ContentAlignment
+            Id: g=3fb8951a03ae8a4a49467574113d3110
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 0
+          - Name: OrderBy
+            Id: g=06e6e58389c879950738673420969215
+            Type: BaseDataVariableType
+            DataType: NodePath
+            Value: ""
+          - Name: DataItemTemplate
+            Id: g=8eea110a0672d524907860a135df9fd0
+            Type: DataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Id: g=22699f253482eb9e3a6fe7351a411b1b
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Id: g=07aecba976577a3e66dc42505375d883
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Item}/FileName"
+            - Name: TextColor
+              Id: g=afd789bd63a8fe7495bc58448a27453e
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#000000"
+        - Name: DataGridColumn3
+          Id: g=e9ea80a40751f8277242eb1a4084f9fc
+          Type: DataGridColumn
+          Children:
+          - Name: Title
+            Id: g=e70bf66d76c0a850f11b09bb499e5e3c
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":14,"TextId":"Size"}
+          - Name: Width
+            Id: g=d40170a67fa33a808aef5001d391aa03
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: 100.0
+          - Name: HeaderAlignment
+            Id: g=7cf8958e2bbbad613091c069b590e741
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+            Value: 1
+          - Name: ContentAlignment
+            Id: g=f176311fe49b40400d020560b7bcc462
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 1
+          - Name: OrderBy
+            Id: g=f83476889e80c9761d816b0b11704971
+            Type: BaseDataVariableType
+            DataType: NodePath
+            Value: ""
+          - Name: DataItemTemplate
+            Id: g=5c98061ca1cfcab38206a238906b1908
+            Type: DataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Id: g=e820e2218a59c5bbce7923028dc1817b
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: StringFormatter1
+                Id: g=1c4be5a5e8c07955e00af3a6c6a41d60
+                Type: StringFormatter
+                Children:
+                - Name: Format
+                  Id: g=3a31c2b8740bb08b3ba9e5447896e7bd
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"en-US","Text":"{0:n} KB"}
+                - Name: ns=5;Source0
+                  Id: g=107322f6700515315801e6c99da34f5b
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=353e94ac2886097e813a49dfefda08b4
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Item}/Size"
+                    Children:
+                    - Name: Mode
+                      Id: g=cf453fa98c8c6ff7dd80675843456a35
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
+            - Name: TextColor
+              Id: g=05aa34019383a50804ca62ae7ca61bee
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#000000"
+      - Name: SelectedItem
+        Id: g=5007b17eb7da76a88894972e60c0bdb0
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Children:
+        - Name: Kind
+          Id: g=3d45e43c75819410692a23f24e66163e
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"e6468705b0e338094ea431f36d411d7f","Namespace":14}
+      - Name: Width
+        Id: g=46fcebbf58e71c83ff158933b52d1195
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Id: g=5ee73e260d28fc1e72cb7f37bb01f725
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 260.0
+      - Name: Item
+        Id: g=c22cff9071159d601c3f2be439f38ebc
+        Type: Alias
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Children:
+        - Name: Kind
+          Id: g=d15d2a448498e6c53d478eb18cfaea11
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"e6468705b0e338094ea431f36d411d7f","Namespace":14}
+      - Name: LeftMargin
+        Id: g=a14d7c94d12197a9484dd82ea099631f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
+      - Name: RightMargin
+        Id: g=61aae17b72abdad71983aa429b541316
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
+      - Name: HorizontalAlignment
+        Id: g=71723bc397813ce8d95af98e9426736d
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: BottomMargin
+        Id: g=6ba858212cd7cb1957ff37b3b11b63d4
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
+      - Name: VerticalAlignment
+        Id: g=53e6c9c65fd283183fa3242bd1edcdbf
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: FilesystemBrowserDatagridLogic
+        Id: g=bba2c287b3a32fe7b7ea60a9ae84531f
+        Type: NetLogic
+        Children:
+        - Class: Method
+          Name: UpdateCurrentPath
+          Id: g=53839a330d3c15fa463a0891219a5dd8
+          Children:
+          - Name: ns=0;InputArguments
+            Id: g=5a3565b0fc90c5e3d68eb91bdc95a23e
+            Type: BaseVariableType
+            DataType: Argument
+            ReferenceType: HasProperty
+            ValueRank: OneDimension
+            ArrayDimensions: [0]
+            Value: [{"TypeId":{"Id":296},"Body":{"Name":"lastPathToken","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+        - Class: Method
+          Name: UpdateCurrentPath
+          Id: g=547d92670e7ee930724ec2446ef556bc
+          Children:
+          - Name: ns=0;InputArguments
+            Id: g=3a28c6713a838629c6ca67f2791e79dc
+            Type: BaseVariableType
+            DataType: Argument
+            ReferenceType: HasProperty
+            ValueRank: OneDimension
+            ArrayDimensions: [0]
+            Value: [{"TypeId":{"Id":296},"Body":{"Name":"lastPathToken","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+        - Class: Method
+          Name: UpdateCurrentPath
+          Id: g=d9c4c26daf5c53c514ae27c39f66615c
+          Children:
+          - Name: ns=0;InputArguments
+            Id: g=8b0c8e51bcc63673dee20a3094ecd397
+            Type: BaseVariableType
+            DataType: Argument
+            ReferenceType: HasProperty
+            ValueRank: OneDimension
+            ArrayDimensions: [0]
+            Value: [{"TypeId":{"Id":296},"Body":{"Name":"lastPathToken","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+        - Class: Method
+          Name: UpdateCurrentPath
+          Id: g=036473476bf918b9a2087933bf81a5a8
+          Children:
+          - Name: ns=0;InputArguments
+            Id: g=a622d9ecc1cdadd10f23626547fcb85f
+            Type: BaseVariableType
+            DataType: Argument
+            ReferenceType: HasProperty
+            ValueRank: OneDimension
+            ArrayDimensions: [0]
+            Value: [{"TypeId":{"Id":296},"Body":{"Name":"lastPathToken","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+        - Class: Method
+          Name: UpdateCurrentPath
+          Id: g=e6a521c947feb98e1fcc5c7b03b14775
+          Children:
+          - Name: ns=0;InputArguments
+            Id: g=6388641c6db6246f236812296a612c16
+            Type: BaseVariableType
+            DataType: Argument
+            ReferenceType: HasProperty
+            ValueRank: OneDimension
+            ArrayDimensions: [0]
+            Value: [{"TypeId":{"Id":296},"Body":{"Name":"lastPathToken","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+        - Class: Method
+          Name: UpdateCurrentPath
+          Id: g=29efd625684d66ca1cac244468c3b799
+          Children:
+          - Name: ns=0;InputArguments
+            Id: g=5e4d0cec67b79c5eb9cfffbdc2f617c3
+            Type: BaseVariableType
+            DataType: Argument
+            ReferenceType: HasProperty
+            ValueRank: OneDimension
+            ArrayDimensions: [0]
+            Value: [{"TypeId":{"Id":296},"Body":{"Name":"lastPathToken","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+        - Class: Method
+          Name: UpdateCurrentPath
+          Id: g=2297e9cd4bbdbe54c2963fc6f13ae97e
+          Children:
+          - Name: ns=0;InputArguments
+            Id: g=61353f4f3d7c839113b9646127f82838
+            Type: BaseVariableType
+            DataType: Argument
+            ReferenceType: HasProperty
+            ValueRank: OneDimension
+            ArrayDimensions: [0]
+            Value: [{"TypeId":{"Id":296},"Body":{"Name":"lastPathToken","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+        - Class: Method
+          Name: UpdateCurrentPath
+          Id: g=b65e08f9586c2f8a834e6accf8875f9c
+          Children:
+          - Name: ns=0;InputArguments
+            Id: g=c62370710c89f4afddf694aebcbd71be
+            Type: BaseVariableType
+            DataType: Argument
+            ReferenceType: HasProperty
+            ValueRank: OneDimension
+            ArrayDimensions: [0]
+            Value: [{"TypeId":{"Id":296},"Body":{"Name":"lastPathToken","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+      - Name: TopMargin
+        Id: g=5d868248eccb29c6b6ee3b516b4f6f11
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: UISelectedItem
+        Id: g=6a3e1cd232df5b8c6a67fe8fc09192bd
+        Type: BaseDataVariableType
+        DataType: NodeId
+        AccessLevel: Read
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+    - Name: FolderPath
+      Id: g=e99cdd22fd807ac2205ff9ac4636869a
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "%PROJECTDIR%\\"
+    - Name: FullPath
+      Id: g=297ca2f1158dfa91fa6aa007c8264282
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: ""
+      Children:
+      - Name: DynamicLink
+        Id: g=66b428aa3da40d6ecba9b691ccb5bc0a
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../FilesToZip/ZipUnzip/FilePath"
+        Children:
+        - Name: Mode
+          Id: g=ff7a10ca9d36e670020d125eb3bc154a
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: ExtensionFilter
+      Id: g=2abf4f34c234f5777d8f32dc84d7112f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "*.*"
+    - Name: Height
+      Id: g=fa6393ffc61b056ba32059313bf8fb9a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 250.0
+    - Name: Width
+      Id: g=75f7e610c607c1e39bb5adc69568841f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 320.0
+    - Name: RightMargin
+      Id: g=1f5602ab1c63835410bf5a3a0c5c2ae8
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: BottomMargin
+      Id: g=ba69aaf98136bd10880fc8f9aa277f71
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: Locations
+      Id: g=9eb351cee561073a47425ac2e16b1b85
+      Type: BaseObjectType
+      Children:
+      - Name: APPLICATION_DIR
+        Id: g=cf6a31fff6a4348006ffe484a648b301
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        DisplayName: {"NamespaceIndex":14,"TextId":"ApplicationFolder"}
+        Value: "%APPLICATIONDIR%\\"
+      - Name: PROJECT_DIR
+        Id: g=b7c8abf0ab71f897ec821f795c333c39
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        DisplayName: {"NamespaceIndex":14,"TextId":"ProjectFolder"}
+        Value: "%PROJECTDIR%\\"
+    - Name: LeftMargin
+      Id: g=4c9db7b0a137ca11419e3250fb307f3a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 32.0
+    - Name: TopMargin
+      Id: g=12cbd764d2059d346c460202dc2771e2
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 44.0
+  - Name: Button1
+    Id: g=f92dfef8e5757f2842a08d16df3c8050
+    Type: Button
+    Children:
+    - Name: Text
+      Id: g=98c256aaee0d6f2a7bfa6156afd2c5f2
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"ZIP"}
+    - Name: TopMargin
+      Id: g=48135e9e014cf2b6df8d7001bdd19ef7
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 305.0
+    - Name: LeftMargin
+      Id: g=0618f432ab2ecb2646aa7f93e20169a4
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 671.0
+    - Name: Width
+      Id: g=9420eed1b1a3f345f3938d0f685a77b2
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+    - Name: MouseclickEventhandler1
+      Id: g=4d75548d1c474574d1fc04a6383072d2
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=1d315d9b7af420f1784a5abf2aa1a6d8
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":16,"Namespace":7}
+      - Name: MethodsToCall
+        Id: g=f9dedbc2d5d32ad4000946aa381ae780
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=2f786bc348efd8724cecee4d25d89472
+          Type: BaseObjectType
+          Children:
+          - Name: ns=5;ObjectPointer
+            Id: g=bd17d1d036e9168e07410164520c30c6
+            Type: NodePointer
+            DataType: NodeId
+            Value: {"IdType":2,"Id":"d42dcc4212811b7a683b6f7cc31eb919","Namespace":14}
+            Children:
+            - Name: Kind
+              Id: g=655f8bade838e774cc89e3dd6a68d369
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"Id":58}
+            - Name: DynamicLink
+              Id: g=551a5104aaeca3cec6e584f11817dac7
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../FilesToZip/ZipUnzip@NodeId"
+              Children:
+              - Name: Mode
+                Id: g=7e727b7cda00b019eab4436132ab3cc3
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: ns=5;Method
+            Id: g=8e45bcce55f2225dc1b85192ad2d10ec
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "CreateZip"
+          - Name: InputArguments
+            Id: g=b841ab01eb137a41a2053d5d6e70e54d
+            Type: BaseObjectType
+            Children:
+            - Name: zipName
+              Id: g=cca73cca9b363cb5fc68c193fd2c9ecc
+              Type: BaseDataVariableType
+              DataType: String
+              Value: ""
+              Children:
+              - Name: DynamicLink
+                Id: g=8986c931b32b11fe5925cf69d80ab3cb
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../FileZipName/Text"
+                Children:
+                - Name: Mode
+                  Id: g=70641b25db99e26a01ba35432fffe6ba
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+      - Name: EventArguments
+        Id: g=b2855b56d48eac240aa52c2dc315d800
+        Type: MouseClickEvent
+        Children:
+        - Name: EventId
+          Id: g=6ad601792cfa711a2bf225047cf037a4
+          Type: PropertyType
+          DataType: ByteString
+          Value: ""
+        - Name: EventType
+          Id: g=7cebb720a9dc46015cbfee0c5582c71f
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceNode
+          Id: g=0cb270725cb88265a7b0e72980342bb7
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceName
+          Id: g=bba389623bbc7e9ee0ef45e102950f3e
+          Type: PropertyType
+          DataType: String
+          Value: ""
+        - Name: Time
+          Id: g=d556f535aab167b0de7b97bddec74c06
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ReceiveTime
+          Id: g=c8cb43028b4ac86d1fe58ee26fabf036
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Message
+          Id: g=b2ec0a649a22994c2e9a520ef54cb2c0
+          Type: PropertyType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Severity
+          Id: g=adfd63f317f2dfbea87e95f26ff9ecba
+          Type: PropertyType
+          DataType: UInt16
+          Value: 0
+  - Name: Button2
+    Id: g=98c843088623c886703693030087268d
+    Type: Button
+    Children:
+    - Name: Text
+      Id: g=211606ff8affc0f4352e921d2ca55a24
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"UNZIP"}
+    - Name: TopMargin
+      Id: g=2053ca3981fa3cae1977102ccc5eb47c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 304.0
+    - Name: LeftMargin
+      Id: g=3980467d24653d76b3400fcef6fdc211
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 282.0
+    - Name: Width
+      Id: g=23bd32e3ff830452f22c5438249293b7
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+    - Name: MouseclickEventhandler1
+      Id: g=9e63b15dcbf7d001d105844ad2f24bba
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=03548a428620daec4ab15612d1490a0a
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":16,"Namespace":7}
+      - Name: MethodsToCall
+        Id: g=a3d63d6ed057e63438647190274d87f8
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=944590c1b6416dfccc9b7ff4f836e688
+          Type: BaseObjectType
+          Children:
+          - Name: ns=5;ObjectPointer
+            Id: g=c3985261d226030862c624c04b2740d9
+            Type: NodePointer
+            DataType: NodeId
+            Value: {"IdType":2,"Id":"d42dcc4212811b7a683b6f7cc31eb919","Namespace":14}
+            Children:
+            - Name: Kind
+              Id: g=557c4c100862af8fb30fa4d72c28b295
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"Id":58}
+            - Name: DynamicLink
+              Id: g=dab66ac02ea97a6b1dff10b8109f2c7a
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../FilesToZip/ZipUnzip@NodeId"
+              Children:
+              - Name: Mode
+                Id: g=02ca0d4e9c21f4aa5435fd5972b55d85
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: ns=5;Method
+            Id: g=f995aa71ba56961a9038dcc9e19660c7
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ExtractZipFile"
+      - Name: EventArguments
+        Id: g=942454c295a34d4829723b6605086bfd
+        Type: MouseClickEvent
+        Children:
+        - Name: EventId
+          Id: g=6f907e924b93d301fe6e9cd334928bf3
+          Type: PropertyType
+          DataType: ByteString
+          Value: ""
+        - Name: EventType
+          Id: g=42d228062e5b6b0e762981de2217d83c
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceNode
+          Id: g=4c73a99361a24fa5abca53a2a698fd1f
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceName
+          Id: g=ebe0a406784a8658a460756625ea2130
+          Type: PropertyType
+          DataType: String
+          Value: ""
+        - Name: Time
+          Id: g=ae8b81413854a3a876946a7860b3468c
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ReceiveTime
+          Id: g=001a2937351a5960094960f85cdcfc0c
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Message
+          Id: g=03e8496542e6ca93c1e7d7a99c02dfd8
+          Type: PropertyType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Severity
+          Id: g=a672edcbca2f87f65856f17d7e6c30d4
+          Type: PropertyType
+          DataType: UInt16
+          Value: 0
+  - Name: FilesToZip
+    Id: g=d34a948cf7e63cff73b6b2c58b459605
+    Type: DataGrid
+    Children:
+    - Name: Model
+      Id: g=77d1f71e0f3f2fb4cec382f2b7ab3b0e
+      Type: NodePointer
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: ItemKind
+        Id: g=d1f31a110ec8003632dd6fa62386d8a2
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"4f790be9e91630296bc30cf8e33e8152","Namespace":14}
+      - Name: Kind
+        Id: g=e238db5b39bfb732f7b8eb4894e9f00d
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: DynamicLink
+        Id: g=75ea25e042fd551a0925df59c508a530
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../ZipUnzip/FilesList@NodeId"
+    - Name: Query
+      Id: g=3dbe1ab1ba04df4b2b19c7491ed48e77
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: Columns
+      Id: g=58b717c370a98d20cb24ef7adca8eb70
+      Type: BaseObjectType
+      Children:
+      - Name: DataGridColumn1
+        Id: g=7ce9dfac0ac57e5fd54be68e2657433e
+        Type: DataGridColumn
+        Children:
+        - Name: Title
+          Id: g=c8ffd0c7e298fc40efcabaf526926e91
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Width
+          Id: g=8a527338f22b4df65cdde65631ed31f4
+          Type: BaseDataVariableType
+          DataType: Size
+          Value: -1.0
+        - Name: HeaderAlignment
+          Id: g=bb94c83294065802de958809708dc1f4
+          Type: BaseDataVariableType
+          DataType: TextHorizontalAlignment
+          Value: 0
+        - Name: ContentAlignment
+          Id: g=e5b59569e046e39222c94d0f04ba4556
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: OrderBy
+          Id: g=39804e1f53b594eec2ca64653767aae5
+          Type: BaseDataVariableType
+          DataType: NodePath
+          Value: ""
+        - Name: DataItemTemplate
+          Id: g=b787627c786b628471e7ab91ee367897
+          Type: DataGridLabelItemTemplate
+          Children:
+          - Name: Text
+            Id: g=b81974335a8b697d4b608bbe16d3ec72
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Id: g=3bc0175579959b01923756e67c1455cc
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}/FileName"
+    - Name: SelectedItem
+      Id: g=6896f0cf29baf99ef5d37ddd64aed532
+      Type: NodePointer
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Id: g=cbc3cfab2f0812593c896bb793607078
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"4f790be9e91630296bc30cf8e33e8152","Namespace":14}
+    - Class: Reference
+      Target: ns=7;i=504
+      Direction: Forward
+    - Name: Width
+      Id: g=12025df0417bb684d657b54261d57e24
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: Height
+      Id: g=cd1e55755f1c09350332c5db7e3c3271
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 250.0
+    - Name: Item
+      Id: g=faaf19db8fa07ff1d705fdedf2508fb3
+      Type: Alias
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Id: g=ecd55debc09955cd287a8d4718af9c4f
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"4f790be9e91630296bc30cf8e33e8152","Namespace":14}
+    - Name: TopMargin
+      Id: g=d8517fb1685a9a764fa20adaa7bd6b18
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 45.0
+    - Name: LeftMargin
+      Id: g=9aa4ccdc6e06febc601fe7941de57a4a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 441.0
+    - Name: ZipUnzip
+      Id: g=91e6f8642c0fdc5d2232fc5f311e58ea
+      Type: NetLogic
+      Children:
+      - Class: Method
+        Name: Add
+        Id: g=d5eb63932079d7955404bb66e4a183cf
+      - Name: FilesList
+        Id: g=b74f85612cfe2d4f2646186ac37ed0bb
+        Type: BaseObjectType
+      - Class: Method
+        Name: Remove
+        Id: g=36c30b08de099992225df7a8dd5c5ef8
+        Children:
+        - Name: ns=0;InputArguments
+          Id: g=2c69d277537f743a3b19c5c19c07958d
+          Type: BaseVariableType
+          DataType: Argument
+          ReferenceType: HasProperty
+          ValueRank: OneDimension
+          ArrayDimensions: [0]
+          Value: [{"TypeId":{"Id":296},"Body":{"Name":"fileName","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+      - Class: Method
+        Name: CreateZip
+        Id: g=baf9fb75e657f9be168c425d124ce587
+        Children:
+        - Name: ns=0;InputArguments
+          Id: g=b198727322bd7e85a5533ed4ea57ed44
+          Type: BaseVariableType
+          DataType: Argument
+          ReferenceType: HasProperty
+          ValueRank: OneDimension
+          ArrayDimensions: [0]
+          Value: [{"TypeId":{"Id":296},"Body":{"Name":"zipName","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+      - Class: Method
+        Name: ExtractZipFile
+        Id: g=85345e3a13ca42b1253b3848c915af38
+      - Name: FilePath
+        Id: g=0e29120d9591617c2ac2e4609a2ad20c
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "0"
+    - Name: UISelectedItem
+      Id: g=753eca1bc7fed71c9278f43f5740b409
+      Type: BaseDataVariableType
+      DataType: NodeId
+      AccessLevel: Read
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: Label1
+    Id: g=ef229329bc84cadd76fef3e9b0af585f
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=72775b7a1aeef9e41e017ed0d2289f4f
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Files to Zip"}
+    - Name: TopMargin
+      Id: g=6e844f159ea52da379cea8fb5614c353
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 14.0
+    - Name: LeftMargin
+      Id: g=c10fd83fc482f2d4a56a5a671cdc59ad
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 429.0
+  - Name: Button3
+    Id: g=727e5cf265f3a93e6c56ac4bb27c45c3
+    Type: Button
+    Children:
+    - Name: Text
+      Id: g=cfb06cb28fa8b98928146bca73f833bc
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"ADD FILE"}
+    - Name: LeftMargin
+      Id: g=1189aa19893f8ed8e2b02bf6fe8bb5a6
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 190.0
+    - Name: TopMargin
+      Id: g=8767bfa2cc0c3be7852329923f9367aa
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 304.0
+    - Name: MouseclickEventhandler1
+      Id: g=fb60304ce4d68b04d560a9ebb601818f
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=837d1e1b3657c56b8daaa313a7c9bd7d
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":16,"Namespace":7}
+      - Name: MethodsToCall
+        Id: g=2435acc5f9486b337da697ca1381fc7e
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=e0dfd028b667b0a3edc16692c51fc00d
+          Type: BaseObjectType
+          Children:
+          - Name: ns=5;ObjectPointer
+            Id: g=1a3337751b71eba6a9c3c2efecaf48e1
+            Type: NodePointer
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Id: g=060d15c338b307b9e01bc78e96c31c17
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"Id":58}
+            - Name: DynamicLink
+              Id: g=7e946ab74d5223e00355c533f335e828
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../FilesToZip/ZipUnzip@NodeId"
+              Children:
+              - Name: Mode
+                Id: g=b294876099e21ff6853c6e3988d0733f
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: ns=5;Method
+            Id: g=c0d679cd397fb35babe5e9b7fd6355d6
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Add"
+      - Name: EventArguments
+        Id: g=61a8fac6f09d309d29d3e61983b38f93
+        Type: MouseClickEvent
+        Children:
+        - Name: EventId
+          Id: g=61cfb5d5f28d6de1c93ca9fe1b5d411d
+          Type: PropertyType
+          DataType: ByteString
+          Value: ""
+        - Name: EventType
+          Id: g=00077e5885323f1a43afc4be48a8ecfd
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceNode
+          Id: g=32506009d3615617af56066e09a67a7b
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceName
+          Id: g=94563ecd4055a67f61cdb90c017eb0b3
+          Type: PropertyType
+          DataType: String
+          Value: ""
+        - Name: Time
+          Id: g=513653bfb36446ca4c587dbb1aa07761
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ReceiveTime
+          Id: g=04e3ba8127e2b421942458957c5f8294
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Message
+          Id: g=80072173facd7c9a5dd469fd416df556
+          Type: PropertyType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Severity
+          Id: g=3a02b94da83c931646d33b4656a8d939
+          Type: PropertyType
+          DataType: UInt16
+          Value: 0
+  - Name: Button4
+    Id: g=e6bfca14b599f687307df43f171a2815
+    Type: Button
+    Children:
+    - Name: Text
+      Id: g=a63de1880bf6787de4fa94cf1592f635
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"REMOVE FILE"}
+    - Name: LeftMargin
+      Id: g=58c9bcb7c74ef4b8c8bb708beee3ec9c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 661.0
+    - Name: TopMargin
+      Id: g=a4c27838054534df8e74c0fa19d083aa
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 45.0
+    - Name: MouseclickEventhandler1
+      Id: g=6faabb75e1ac14489924347d1742063c
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=d5c23962989b1bb3ae2d82d1a4ce93c3
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":16,"Namespace":7}
+      - Name: MethodsToCall
+        Id: g=0308a1861200a6c589dfafb271387a4a
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer2
+          Id: g=581021a88173cfdcc44ca3ec3b5d05be
+          Type: BaseObjectType
+          Children:
+          - Name: ns=5;ObjectPointer
+            Id: g=367ff9f90d5c774a298112a3fad40074
+            Type: NodePointer
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Id: g=5506d63a005b8cd4ab20f0fc7400c089
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"Id":58}
+            - Name: DynamicLink
+              Id: g=40168f54f17b9b5d70e5dc47ce9023a6
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../FilesToZip/ZipUnzip@NodeId"
+              Children:
+              - Name: Mode
+                Id: g=10ba002d25f197232496b4cc85031919
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: ns=5;Method
+            Id: g=486cb67d1dd1a57b1c47a19bf07eaf54
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Remove"
+          - Name: InputArguments
+            Id: g=3fe1d55e32d022b76a8502b0221b8551
+            Type: BaseObjectType
+            Children:
+            - Name: fileName
+              Id: g=3dd953b6b178fb656ec4ddb51dadc3fb
+              Type: BaseDataVariableType
+              DataType: String
+              Value: ""
+              Children:
+              - Name: DynamicLink
+                Id: g=0e8d9a5552dd3ca4f060b1b9ee191833
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../FilesToZip/SelectedItem/FileName"
+                Children:
+                - Name: Mode
+                  Id: g=7455589233e1311583db5c2135bf6ee3
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+      - Name: EventArguments
+        Id: g=1e5f37086ac7439f7d76e7e1d78a5037
+        Type: MouseClickEvent
+        Children:
+        - Name: EventId
+          Id: g=6169067dabfe1dd42e60e962027d591c
+          Type: PropertyType
+          DataType: ByteString
+          Value: ""
+        - Name: EventType
+          Id: g=9c086c3bf4fc74467ec20466789fb545
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceNode
+          Id: g=3e6b8cb4793c93ffb52119f923a100fc
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceName
+          Id: g=3ff84f23a854049d0dafe936b8c4d5c2
+          Type: PropertyType
+          DataType: String
+          Value: ""
+        - Name: Time
+          Id: g=604518e1185fa3f51eb07814e9a2b648
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ReceiveTime
+          Id: g=f23c77bf349a13bba59da24a9b753986
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Message
+          Id: g=c4483539452d0a65ed8bc550c8ef3cc6
+          Type: PropertyType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Severity
+          Id: g=3281078ba979aacb92ece222ee212e75
+          Type: PropertyType
+          DataType: UInt16
+          Value: 0
+  - Name: FileZipName
+    Id: g=aa68597735f88f3fa0ed0190078b4566
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=43f92bb795720828fa14841c4b07ae78
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"file.zip"}
+    - Name: Width
+      Id: g=edcd334d5ef57bdcc57bea71b9b79535
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: TopMargin
+      Id: g=f54e0444f69d264ef7438c6c9a3f1b6c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 305.0
+    - Name: LeftMargin
+      Id: g=6b34a1b13b2d80390724bccf71bf983b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 441.0
+  - Name: Label2
+    Id: g=37fea889b77430d353eff245296ca93c
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=98e5e4a0b1e9b85cc0ec4e6d78555b9c
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Files Browser"}
+    - Name: TopMargin
+      Id: g=e6ed17d75be6129536a03c91035d9903
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 14.0
+    - Name: LeftMargin
+      Id: g=095619ced4f1856c60f7d2d3f7633694
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+- Name: Instructions
+  Id: g=32c5b297c54f99fb8ab8ee62f55482b7
+  Supertype: Page_Template
+  ReferenceType: HasComponent
+  Children:
+  - Name: Background
+    Id: g=0ef2499af3ec3c0e3f2c750bd595089a
+    Type: Rectangle
+    Children:
+    - Name: Label1
+      Id: g=9edad603b65c80b4e96d5c398c04ea88
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=8acda9879c251986fb5c224b5dc1d8a6
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"This example shows how to zip or unzip multiple files with a simple runtime script"}
+      - Name: TopMargin
+        Id: g=39a4645f45022aa31313add277304682
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: LeftMargin
+        Id: g=8ea47a437585be2922214ebe9a4904bc
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+    - Name: Label2
+      Id: g=41cfc117871ccc0b39167c7ed9b946aa
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=ea7926e2d5a2e2a5ad352b68cce6aa73
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Edit the files list to add to archive, select the name of the zip files and click ZIP button."}
+      - Name: TopMargin
+        Id: g=00cf77b2fa8bc1cd29287d43f947ede6
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 61.0
+      - Name: LeftMargin
+        Id: g=85fac05b7c7fb22a990ce9046ea6e776
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+    - Name: Label3
+      Id: g=81ecbd5d333740f3f0b0538921f4c63a
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=7332cca9b196c8c5f7b3f7ebb8927ffa
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"You can add and remove files using the button ADD FILES and REMOVE FILES."}
+      - Name: TopMargin
+        Id: g=483bdcd39567ec19398045c4798a937e
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 91.0
+      - Name: LeftMargin
+        Id: g=e47ab2ea9d1e0aa9a6adbf0f17bdeaba
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+    - Name: Label4
+      Id: g=02c1240efd8ae7919b6729ed5090d720
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=4759b9906efd11ee77082c9afcd4265d
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"The folder of the Archive is the folder of the last highlighted file in the browse files widget."}
+      - Name: TopMargin
+        Id: g=84b72187d79023ef95afca475bbd8f85
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 123.0
+      - Name: LeftMargin
+        Id: g=1bc68cfd2f4e0d634aa2c925a10c250f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+    - Name: Label5
+      Id: g=2ea826aade0aa531189a0e6c36d36394
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=34387c039cd643ad6098dd8e8ec35269
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"You can easly trasform the script into a widget draggin it into ypu library."}
+      - Name: TopMargin
+        Id: g=7d2f3bebe29bfbe60febdb3cf671aa6c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 156.0
+      - Name: LeftMargin
+        Id: g=56754ab0453160069831fd98c12f8e76
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+- Name: FileEntry
+  Id: g=e6468705b0e338094ea431f36d411d7f
+  Supertype: BaseObjectType
+  Children:
+  - Name: FileName
+    Id: g=c11ea49f06d40fe0097d75d3364dba5d
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Size
+    Id: g=4470a354d5077469fa20a1be3ed59442
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: IsDirectory
+    Id: g=3ab47460256910e2a4d76d4f9c808ac2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: FilesEntry
+  Id: g=4f790be9e91630296bc30cf8e33e8152
+  Supertype: BaseObjectType
+  Children:
+  - Name: FileName
+    Id: g=f03b0ef091c3a99cf6f5b946b940498d
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: FilePath
+    Id: g=739e371a70e918046998d524e6991e08
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "0"

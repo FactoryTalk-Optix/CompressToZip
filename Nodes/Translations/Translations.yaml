@@ -1,0 +1,22 @@
+Name: Translations
+Id: g=5002b1a80c97e6107ded98f6484e7fa8
+Type: FolderType
+Children:
+- Name: LocalizationDictionary1
+  Id: g=f228cb9dfd088ff1bcbcd3ab19a267b2
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [5,2],
+    "Body": [
+     "","en-US",
+     "ApplicationFolder","Application folder",
+     "Filename","File name",
+     "Size","Size",
+     "ProjectFolder","Project folder"
+    ]
+   }

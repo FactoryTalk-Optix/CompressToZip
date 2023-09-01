@@ -1,0 +1,16 @@
+ProjectFiles/NetSolution/*.vs
+ProjectFiles/NetSolution/bin
+ProjectFiles/NetSolution/obj
+ProjectFiles/NetSolution/Private
+ProjectFiles/NetSolution/*.references
+ProjectFiles/UserDefinedModule.xml
+IDEVersion.txt
+
+/*
+!*.gitignore
+!*.gitattributes
+!*.optix
+!*.optix.design
+!Nodes/
+!ProjectFiles/
+!DesignTimeNodes/

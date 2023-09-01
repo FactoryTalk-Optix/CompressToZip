@@ -1,0 +1,61 @@
+Name: CompressToZip
+Id: g=4a25794e827bc77a1a97366c6ed20f69
+Type: ProjectFolder
+Children:
+- Name: BranchingEnabled
+  Id: g=e837bfd0d2aebde80f3e907b42048c86
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Locales
+  Id: g=caf67a3ff6d6645a164c028c50964293
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: ["en-US"]
+- Name: LocaleFallbackList
+  Id: g=29e68f16c80ea00f991e77336a0980ad
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: ["en-US"]
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Users/Users.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml
+- Name: PasswordPolicy
+  Id: g=1bc5dfbd1e71aa39de5b89cca8c460ea
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=221e866df282e248b34f2fd8c8ebd38a
+    Type: PropertyType
+    DataType: UInt16
+    Value: 0
+  - Name: EnforcePasswordHistory
+    Id: g=c30e9f9ed43b3eb610b4f88f90fd77aa
+    Type: PropertyType
+    DataType: Byte
+    Value: 0
+  - Name: MinimumPasswordAge
+    Id: g=3ae463d0ad98d7f403b099b7df026ed8
+    Type: PropertyType
+    DataType: UInt16
+    Value: 0
+  - Name: MinimumPasswordLength
+    Id: g=eb49b5ef958ff67d6ccd440b7185d2f6
+    Type: PropertyType
+    DataType: Byte
+    Value: 0
